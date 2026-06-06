@@ -41,3 +41,32 @@ p{
 .menu ol li {
     margin-top: 1rem;
 }
+
+.card h2{
+    background-color: #ffc500;
+    margin: 0;
+    padding: .6rem;
+    text-align: center;
+}
+
+.card {
+    border: solid;
+    border-width: .1rem;
+    background-color: #f4f3f4;
+    padding: .5rem;
+}
+
+.card-img {
+    padding-top: .6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    flex-basis: 60%;
+}
+
+.card-img p {
+    margin-left: .3rem;
+    flex-basis: 40%;
+}
